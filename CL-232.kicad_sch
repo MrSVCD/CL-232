@@ -1813,408 +1813,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x06"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x06"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x06_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 5.4102) (xy 0.3302 4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 5.588) (xy 0.508 4.7498)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -7.112) (xy 0.508 -7.9502)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -7.62)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
@@ -5815,7 +5413,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 66.04) (xy 262.89 66.04)
+			(xy 262.89 66.04) (xy 267.97 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5962,16 +5560,6 @@
 			(type default)
 		)
 		(uuid "111cedd9-fe75-46b6-ab02-9b5741535592")
-	)
-	(wire
-		(pts
-			(xy 269.24 63.5) (xy 266.7 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12194cbc-5bb8-4096-aff3-190b551a9807")
 	)
 	(wire
 		(pts
@@ -6325,16 +5913,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 71.12) (xy 260.35 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d80bfe-e7c8-4c47-a3be-0e780b3b91a1")
-	)
-	(wire
-		(pts
 			(xy 194.31 40.64) (xy 196.85 40.64)
 		)
 		(stroke
@@ -6605,16 +6183,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 60.96) (xy 269.24 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "631c43a9-ccb1-4803-83dd-ffa77f3777e8")
-	)
-	(wire
-		(pts
 			(xy 87.63 27.94) (xy 87.63 31.75)
 		)
 		(stroke
@@ -6652,16 +6220,6 @@
 			(type default)
 		)
 		(uuid "6714b021-0741-4f6b-83d0-54c07b467dab")
-	)
-	(wire
-		(pts
-			(xy 262.89 73.66) (xy 269.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b51e55-03bb-4df7-8343-923d43da0ac0")
 	)
 	(wire
 		(pts
@@ -6935,6 +6493,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 63.5) (xy 267.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b6b8e2-65ee-48f1-a169-fdb734cd48c7")
+	)
+	(wire
+		(pts
 			(xy 31.75 92.71) (xy 31.75 77.47)
 		)
 		(stroke
@@ -7005,16 +6573,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 68.58) (xy 269.24 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aed655f5-372a-4d92-b4ea-09a385485193")
-	)
-	(wire
-		(pts
 			(xy 154.94 185.42) (xy 154.94 187.96)
 		)
 		(stroke
@@ -7065,6 +6623,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 60.96) (xy 267.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4124bb3-75dc-4e88-ab2a-5ae28c06214b")
+	)
+	(wire
+		(pts
 			(xy 67.31 31.75) (xy 67.31 34.29)
 		)
 		(stroke
@@ -7082,6 +6650,16 @@
 			(type default)
 		)
 		(uuid "b5d48471-97b6-4a1e-bf4e-11a7872bd290")
+	)
+	(wire
+		(pts
+			(xy 260.35 68.58) (xy 267.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7416248-0eef-40d8-aa5d-4742f162bf4b")
 	)
 	(wire
 		(pts
@@ -7415,6 +6993,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 71.12) (xy 267.97 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb47f0dd-e4b4-4cf5-8cb0-770619edf8fa")
+	)
+	(wire
+		(pts
 			(xy 107.95 29.21) (xy 107.95 31.75)
 		)
 		(stroke
@@ -7512,6 +7100,16 @@
 			(type default)
 		)
 		(uuid "f848dd73-d918-46dc-a6c8-691c8f0531de")
+	)
+	(wire
+		(pts
+			(xy 262.89 73.66) (xy 267.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f938765a-75a3-40c6-b907-2b6e63ab4d82")
 	)
 	(wire
 		(pts
@@ -7868,87 +7466,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x06")
-		(at 274.32 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "042717d8-0bff-45e0-8145-48237a66a55d")
-		(property "Reference" "J2"
-			(at 277.876 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal"
-			(at 280.416 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal"
-			(at 274.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 274.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "b0ce9e43-0e91-4956-8cd7-3e8ae7b2fe22")
-		)
-		(pin "1"
-			(uuid "fbfe1f87-6609-4a8a-a75a-c0bd508bbf9f")
-		)
-		(pin "2"
-			(uuid "4c3bfd48-9b09-49df-bd97-45096fd9ebe1")
-		)
-		(pin "4"
-			(uuid "5794016f-27dd-4911-ab62-5db7e6fe2454")
-		)
-		(pin "6"
-			(uuid "37955d34-008b-4855-85e0-addfb0b1a384")
-		)
-		(pin "3"
-			(uuid "fbc45e4a-e1d1-4ce8-b55a-b4518760dc25")
-		)
-		(instances
-			(project ""
-				(path "/8d0d347e-691e-4cff-9d05-91a8158922bd"
-					(reference "J2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -12471,6 +11988,88 @@
 			(project ""
 				(path "/8d0d347e-691e-4cff-9d05-91a8158922bd"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 273.05 68.58 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f05fca9e-0f8d-4483-b4e1-4f42046dd5ae")
+		(property "Reference" "J12"
+			(at 275.59 68.5801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 275.59 66.0401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_6-G-5.08_1x06_P5.08mm_Horizontal"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "473f9227-68a5-417c-8138-cd287f0e1d76")
+		)
+		(pin "4"
+			(uuid "f769d842-5bbf-4d90-9ff4-1fe43b8eadc1")
+		)
+		(pin "3"
+			(uuid "ccb77f70-4621-4720-97fb-33db20b5ac8e")
+		)
+		(pin "2"
+			(uuid "f3390e24-4842-490c-8c40-53e68b403bd5")
+		)
+		(pin "5"
+			(uuid "a5c1580e-5ae8-4655-8494-49f0391a2a85")
+		)
+		(pin "6"
+			(uuid "463f332e-a760-4056-b0fd-224b7401181a")
+		)
+		(instances
+			(project ""
+				(path "/8d0d347e-691e-4cff-9d05-91a8158922bd"
+					(reference "J12")
 					(unit 1)
 				)
 			)

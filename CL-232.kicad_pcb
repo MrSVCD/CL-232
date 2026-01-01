@@ -2057,6 +2057,7 @@
 		(property "Value" "LM7805_TO220"
 			(at 2.54 2.2 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8a683da0-9dfe-4ef8-a908-e00ab485e42e")
 			(effects
 				(font
@@ -2085,6 +2086,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "LM7805"
+			(at 2.54 2.54 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cb042496-54ba-4896-9b14-6ff60d6277ef")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

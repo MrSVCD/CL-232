@@ -1,6 +1,6 @@
 # CL-232
 
-## In progress - Ver 0.2
+## In progress - Ver 0.3
 
 ![](Documents/PCB.png)
 

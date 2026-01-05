@@ -1818,119 +1818,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -5315,6 +5202,12 @@
 		(uuid "830e0a69-6eb6-45a3-8978-276db4bf60ab")
 	)
 	(junction
+		(at 144.78 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83382b64-7417-424c-af50-3922faa4976c")
+	)
+	(junction
 		(at 113.03 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5337,12 +5230,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97ba6bc7-df25-49e3-bc98-5223d13e1280")
-	)
-	(junction
-		(at 151.13 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dd4d1e7-aadf-47f5-af69-4941a525ddb9")
 	)
 	(junction
 		(at 123.19 31.75)
@@ -5375,22 +5262,10 @@
 		(uuid "cb304c98-964a-44e4-b555-23cb86792da0")
 	)
 	(junction
-		(at 147.32 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d563c10f-618f-4ae6-bb9d-5af71653d867")
-	)
-	(junction
 		(at 152.4 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db6b1332-185a-4dcb-9d16-f9353efb2070")
-	)
-	(junction
-		(at 143.51 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2953e04-8bb8-48cb-b8ed-8a82269c4aa0")
 	)
 	(junction
 		(at 237.49 113.03)
@@ -5579,16 +5454,6 @@
 			(type default)
 		)
 		(uuid "1485c537-aec5-44b3-b5f9-18cca7ee0211")
-	)
-	(wire
-		(pts
-			(xy 151.13 187.96) (xy 154.94 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b4ad77-2776-4e88-bae4-3ceeae841227")
 	)
 	(wire
 		(pts
@@ -6032,16 +5897,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 187.96) (xy 143.51 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "550a763c-f441-4aaf-9f84-e9f219797ba3")
-	)
-	(wire
-		(pts
 			(xy 102.87 44.45) (xy 113.03 44.45)
 		)
 		(stroke
@@ -6049,6 +5904,16 @@
 			(type default)
 		)
 		(uuid "5561a083-f7f5-4cb3-b59c-6baeaf500cdb")
+	)
+	(wire
+		(pts
+			(xy 144.78 167.64) (xy 144.78 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ad5b0f-03c8-4800-9d5f-45ac4f274ee0")
 	)
 	(wire
 		(pts
@@ -6302,13 +6167,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 185.42) (xy 147.32 187.96)
+			(xy 140.97 167.64) (xy 140.97 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7baa94db-826a-42a1-9071-5e3f44743fac")
+		(uuid "790221e0-d21d-4510-86cb-e47b076ab361")
 	)
 	(wire
 		(pts
@@ -6372,16 +6237,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 187.96) (xy 151.13 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a6f3ad-af66-4e9f-8f34-531bbfe730b3")
-	)
-	(wire
-		(pts
 			(xy 194.31 22.86) (xy 194.31 25.4)
 		)
 		(stroke
@@ -6412,6 +6267,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 154.94) (xy 144.78 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5a2546-a999-405c-ae1f-87f8747ef62b")
+	)
+	(wire
+		(pts
 			(xy 191.77 92.71) (xy 191.77 95.25)
 		)
 		(stroke
@@ -6429,16 +6294,6 @@
 			(type default)
 		)
 		(uuid "8f558b0f-332f-4905-aa84-5d1f30d1c9a2")
-	)
-	(wire
-		(pts
-			(xy 151.13 185.42) (xy 151.13 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "916578d0-9897-4308-80a7-7d9fd350c93f")
 	)
 	(wire
 		(pts
@@ -6569,26 +6424,6 @@
 			(type default)
 		)
 		(uuid "ae28084e-a338-4106-943b-d57cbf534f94")
-	)
-	(wire
-		(pts
-			(xy 154.94 185.42) (xy 154.94 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af8ab3de-b448-418a-825f-7cd2a6435d3e")
-	)
-	(wire
-		(pts
-			(xy 143.51 187.96) (xy 147.32 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b086ff0e-f71e-4b0d-b505-24e5822dc75d")
 	)
 	(wire
 		(pts
@@ -6772,16 +6607,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 185.42) (xy 143.51 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbb50bcc-5a93-473d-b59f-5331029a3418")
-	)
-	(wire
-		(pts
 			(xy 217.17 53.34) (xy 224.79 53.34)
 		)
 		(stroke
@@ -6932,6 +6757,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 167.64) (xy 140.97 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61759d0-1504-49a6-a69e-6e95515e6837")
+	)
+	(wire
+		(pts
 			(xy 227.33 100.33) (xy 227.33 102.87)
 		)
 		(stroke
@@ -6949,6 +6784,16 @@
 			(type default)
 		)
 		(uuid "e72e7e2d-26b5-4413-80c9-a8c8ef05f6ac")
+	)
+	(wire
+		(pts
+			(xy 144.78 154.94) (xy 144.78 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e883eb67-5ef4-472d-a11b-b544f15a877c")
 	)
 	(wire
 		(pts
@@ -7029,6 +6874,16 @@
 			(type default)
 		)
 		(uuid "ee1e4df1-8888-46eb-a03a-65ab2034e758")
+	)
+	(wire
+		(pts
+			(xy 144.78 165.1) (xy 144.78 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef3a474f-21c0-473e-8d93-124585f88ee1")
 	)
 	(wire
 		(pts
@@ -7459,6 +7314,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 144.78 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01fa0aaf-cd37-4234-b57f-410cec011431")
+		(property "Reference" "R10"
+			(at 147.32 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 147.32 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 143.002 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30942607-7888-43d5-add5-4a45f50ddaf0")
+		)
+		(pin "1"
+			(uuid "accc371b-b3fd-4856-90f4-d3ea75c8e549")
+		)
+		(instances
+			(project ""
+				(path "/8d0d347e-691e-4cff-9d05-91a8158922bd"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 62.23 118.11 0)
 		(mirror y)
@@ -7734,76 +7659,6 @@
 			(project "CL-232"
 				(path "/8d0d347e-691e-4cff-9d05-91a8158922bd"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 154.94 180.34 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b740393-dab0-41cd-a104-f517a99bf105")
-		(property "Reference" "J11"
-			(at 157.48 181.6101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 157.48 179.0701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 154.94 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 154.94 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3139589a-b2d2-4ff4-905d-a8774995de47")
-		)
-		(instances
-			(project "CL-232"
-				(path "/8d0d347e-691e-4cff-9d05-91a8158922bd"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -8817,76 +8672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 143.51 180.34 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "499e75b5-644e-434f-9b14-69472dcba46f")
-		(property "Reference" "J8"
-			(at 146.05 181.6101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 146.05 179.0701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 143.51 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26713122-e816-439b-9f5a-50773a964b17")
-		)
-		(instances
-			(project "CL-232"
-				(path "/8d0d347e-691e-4cff-9d05-91a8158922bd"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 194.31 29.21 0)
 		(mirror y)
@@ -9298,76 +9083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 151.13 180.34 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53394ca0-b2be-4c5e-a39f-7f8de564dae9")
-		(property "Reference" "J10"
-			(at 153.67 181.6101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 153.67 179.0701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 151.13 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 151.13 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d11a47e-7df9-4ade-85c9-91c81e80cd91")
-		)
-		(instances
-			(project "CL-232"
-				(path "/8d0d347e-691e-4cff-9d05-91a8158922bd"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 267.97 147.32 0)
 		(unit 1)
@@ -9592,7 +9307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown"
 			(at 113.03 26.035 0)
 			(effects
 				(font
@@ -10665,73 +10380,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 143.51 190.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94db0601-9490-4d73-b0ce-32a3ec5798cc")
-		(property "Reference" "#PWR010"
-			(at 143.51 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 143.51 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 143.51 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2636c2dd-25ce-46f1-ae5a-9b123818b3d9")
-		)
-		(instances
-			(project "CL-232"
-				(path "/8d0d347e-691e-4cff-9d05-91a8158922bd"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 152.4 93.98 0)
 		(mirror y)
@@ -11165,38 +10813,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 147.32 180.34 270)
-		(mirror x)
+		(lib_id "power:GNDREF")
+		(at 144.78 170.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5913505-82ac-4f24-a9c5-044cec3b3384")
-		(property "Reference" "J9"
-			(at 149.86 181.6101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 149.86 179.0701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 147.32 180.34 0)
+		(uuid "ab7122ea-1c1f-4f0f-be0d-244984d0ac66")
+		(property "Reference" "#PWR021"
+			(at 144.78 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,8 +10832,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 147.32 180.34 0)
+		(property "Value" "GNDREF"
+			(at 144.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11213,8 +10849,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 147.32 180.34 0)
+		(property "Datasheet" ""
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 144.78 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11223,12 +10868,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "219005bc-680c-4643-9946-9357f7f83c59")
+			(uuid "ba50f4f5-0a7b-451d-a3c3-0e8c49251618")
 		)
 		(instances
 			(project "CL-232"
 				(path "/8d0d347e-691e-4cff-9d05-91a8158922bd"
-					(reference "J9")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)

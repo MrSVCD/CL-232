@@ -11,5 +11,4 @@ The adapter is based on B&B electronics [design](Documents/B&B%20Electronics%20-
 I also changed the 5V Logic <-> RS232 chip to a single MAX3232 which has the added benefit to only need +5v instead of the old design needing +/-12v, this also makes the adapter able to run on USB power. The Current Loop probably needs more than 5v to get any length going but it should be possible to get a short link going with just 5v, all the old documentation I have found uses 12v or more. 
 
 ## Current Limiter
-In the folder [CurrentLimiter](CurrentLimiter) there is a simple Current Limiter based on a LM317 and a 62Ω resistor. **Not tested for how much voltage it can take yet.**
-
+In the folder [CurrentLimiter](CurrentLimiter) there is a simple Current Limiter based on a LM317 and a 62Ω resistor. This current limiter works on a loop up to 40 volts.
